@@ -1,4 +1,5 @@
-from training import crop_s 
+from training import crop_s, X_test, y_test
+from sklearn.metrics import accuracy_score, classification_report
 
 #modelni baholash 
 y_pred = crop_s.predict(X_test)
